@@ -3,14 +3,16 @@
     android:id="@+id/menuLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F0F0F0"
-    android:orientation="vertical">
+    android:background="@color/mb_blue_dark"
+    android:orientation="vertical"
+    android:paddingTop="8dp">
 
     <ListView
         android:id="@+id/menuList"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:choiceMode="singleChoice"
-        android:divider="@null" />
+        android:divider="@null"
+        android:listSelector="@android:color/transparent" />
 
 </LinearLayout>

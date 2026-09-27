@@ -2,4 +2,10 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="mb_blue">#FF1F7FD6</color>
+    <color name="mb_blue_dark">#FF14315E</color>
+    <color name="mb_orange">#FFF2892E</color>
+    <color name="mb_white">#FFFFFFFF</color>
+    <color name="mb_white_soft">#CCFFFFFF</color>
 </resources>

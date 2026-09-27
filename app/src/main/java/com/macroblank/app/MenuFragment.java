@@ -36,7 +36,7 @@ public class MenuFragment extends Fragment {
         menuList = view.findViewById(R.id.menuList);
         ArrayAdapter<String> adapter = new ArrayAdapter<>(
                 requireContext(),
-                android.R.layout.simple_list_item_activated_1,
+                R.layout.item_menu,
                 LABELS
         );
         menuList.setAdapter(adapter);

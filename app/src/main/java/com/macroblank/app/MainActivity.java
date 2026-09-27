@@ -1,7 +1,6 @@
 package com.macroblank.app;
 
 import android.os.Bundle;
-import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
@@ -16,10 +15,19 @@ public class MainActivity extends AppCompatActivity implements OnMenuItemSelecte
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         fragmentManager = getSupportFragmentManager();
+
+        if (savedInstanceState == null) {
+            replaceFragment(new ProfileFragment());
+        }
     }
 
     @Override
     public void onMenuItemSelected(String option) {
+        switch (option) {
+            case "Profile":
+                replaceFragment(new ProfileFragment());
+                break;
+        }
     }
 
     public void replaceFragment(Fragment fragment) {

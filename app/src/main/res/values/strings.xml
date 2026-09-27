@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Macroblank</string>
+    <string name="foto_del_artista">Foto del artista</string>
+    <string name="macroblank">Macroblank</string>
+    <string name="vaporwave_downtempo_barber_beats">Vaporwave, downtempo, barber beats</string>
 </resources>
