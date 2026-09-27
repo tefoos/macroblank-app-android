@@ -27,6 +27,9 @@ public class MainActivity extends AppCompatActivity implements OnMenuItemSelecte
             case "Profile":
                 replaceFragment(new ProfileFragment());
                 break;
+            case "Photos":
+                replaceFragment(new PhotosFragment());
+                break;
         }
     }
 
