@@ -36,9 +36,11 @@ public class MainActivity extends AppCompatActivity implements OnMenuItemSelecte
             case "Web":
                 replaceFragment(new WebFragment());
                 break;
+            case "Buttons":
+                replaceFragment(new ButtonsFragment());
+                break;
         }
     }
-
     public void replaceFragment(Fragment fragment) {
         fragmentManager.beginTransaction()
                 .replace(R.id.contentContainer, fragment)
