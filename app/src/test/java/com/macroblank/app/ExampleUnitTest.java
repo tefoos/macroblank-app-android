@@ -1,4 +1,4 @@
-package com.example.macroblank;
+package com.macroblank.app;
 
 import org.junit.Test;
 

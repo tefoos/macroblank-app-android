@@ -3,13 +3,13 @@ plugins {
 }
 
 android {
-    namespace = "com.example.macroblank"
+    namespace = "com.macroblank.app"
     compileSdk {
         version = release(37)
     }
 
     defaultConfig {
-        applicationId = "com.example.macroblank"
+        applicationId = "com.macroblank.app"
         minSdk = 24
         targetSdk = 37
         versionCode = 1
