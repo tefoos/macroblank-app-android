@@ -30,6 +30,9 @@ public class MainActivity extends AppCompatActivity implements OnMenuItemSelecte
             case "Photos":
                 replaceFragment(new PhotosFragment());
                 break;
+            case "Video":
+                replaceFragment(new VideoFragment());
+                break;
         }
     }
 
